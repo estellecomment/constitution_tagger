@@ -1,5 +1,5 @@
 <?php
-include("settings.php");
+include("conf/settings.php");
 include("helpers.php");
 include("i18n.php");
 
