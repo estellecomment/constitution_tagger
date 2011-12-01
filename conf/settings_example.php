@@ -2,7 +2,7 @@
 // move password_protect.php to a location outside your web directory,
 //  and set the path here : 
 include("../../password_protect.php"); 
-// remember to set passwords in the password_protect.php file. (ctrl+F "EDIT PASSWORDS HERE")
+// remember to set passwords and the home directory in the password_protect.php file. (ctrl+F "EDIT HERE")
 
 function get_default_language(){
     return "en"; // can be en, ar, fr, es, ..
