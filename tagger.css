@@ -1,0 +1,75 @@
+.highlight {
+  background-color:#FFA;
+}
+.yellow_border {
+  border:3px solid red;
+} 
+.save {
+    float:right;
+    padding-top:12px;
+}
+.col3 .title {
+    float:left;
+}
+
+/* deactivate the weird coloring for links for the articles. */
+.col1 .content  a{
+    text-decoration: none;
+    color : black;
+}
+.col1 .content  a:hover{
+    background: inherit;
+}
+
+/* display the Tags in articles */
+.col1 .content .article h4{
+    margin-bottom: 0;
+}
+
+/* indenting for tag list, depending of depth in taxonomy hierarchy*/
+.depth-1{
+    text-indent: 2em;
+}
+.depth-2{
+    text-indent: 4em;
+}
+.depth-3{
+    text-indent: 6em;
+}
+.depth-4{
+    text-indent: 8em;
+}
+.depth-5{
+    text-indent: 10em;
+}
+.depth-6{
+    text-indent: 12em;
+}
+
+.instructions{
+    display: inline;
+}
+
+.col3 .title{
+    width: 185px;
+}
+.col3 .title h3{
+    margin: 0.5em;
+}
+
+.logout-button{
+ position:absolute;
+ right: 45px;
+ top: 35px;
+}
+
+.close-button{
+}
+.open-button{
+}
+.openclose-buttons{
+    margin: 8px 15px;
+}
+.openclose-buttons a{
+    margin: 10px;
+}
