@@ -1,3 +1,5 @@
 nbproject
 index.php.bak.php
 conf/settings.php
+password_protect.php
+.htaccess
