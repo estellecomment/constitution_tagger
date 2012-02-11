@@ -66,14 +66,14 @@ $(document).ready(function(){
   
   $(".tag").click(function(){
     // only actions if there is a checkbox
-    if (this.childNodes[0].type == "checkbox"){
+    if (this.childNodes[2].type == "checkbox"){
       // if unselected, make it selected
       if (!$(this).hasClass("yellow_border")){
         $(this).addClass("yellow_border");
-        this.childNodes[0].checked = true;
+        this.childNodes[2].checked = true;
       }else{
           $(this).removeClass("yellow_border");
-          this.childNodes[0].checked = false;
+          this.childNodes[2].checked = false;
       }
     }
   });
@@ -85,6 +85,8 @@ $(document).ready(function(){
 </head>
 <body>
 
+<div id="page-wrapper">
+    
 <div id="header">
     <?php render_header($language);?>
 </div>
@@ -136,8 +138,11 @@ if (array_key_exists('id', $_GET)) {
 		</div>
 	</div>
 </div>
+    
 <div id="footer">
 </div>
 
+</div>    
+    
 </body>
 </html>

@@ -73,3 +73,10 @@
 .openclose-buttons a{
     margin: 10px;
 }
+
+#page-wrapper {
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+}

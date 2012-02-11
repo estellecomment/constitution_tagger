@@ -1,10 +1,10 @@
 <?php
-include("db.php"); 
+include("../conf/settings.php"); 
 
 // connect to DB
-$credentials = get_db_credentials();
-mysql_connect($credentials['db_host'], $credentials['db_user'], $credentials['db_pass']);
-@mysql_select_db($credentials['db_db_name']) or die( "Unable to select database");
+$credentials = get_db_config();
+mysql_connect($credentials['host'], $credentials['user'], $credentials['pass']);
+@mysql_select_db($credentials['db']) or die( "Unable to select database");
 mysql_set_charset('utf8');
 
 // find the vid of the Tags vocabulary
